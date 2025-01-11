@@ -1,0 +1,42 @@
+
+.container.data-v-44fe9e6f {
+		padding: 24px 0px;
+		display: flex;
+		flex-direction: column;
+		row-gap: 24px;
+		align-items: center;
+}
+.height-display.data-v-44fe9e6f {
+		display: flex;
+		align-items: baseline;
+}
+.height-number.data-v-44fe9e6f {
+		font-size: 64px;
+		font-weight: bold;
+		color: #555;
+}
+.height-unit.data-v-44fe9e6f {
+		font-size: 24px;
+		color: #777;
+		font-weight: bold;
+		margin-left: 5px;
+}
+.record-height.data-v-44fe9e6f {
+		font-size: 18px;
+		color: #333;
+}
+.delete-button.data-v-44fe9e6f {
+		background-color: #ff3b30;
+		color: white;
+		border: none;
+		padding: 6px 12px;
+		border-radius: 4px;
+		cursor: pointer;
+}
+.delete-button.data-v-44fe9e6f:hover {
+		background-color: #e60000;
+}
+.chart-container.data-v-44fe9e6f {
+		width: 100%;
+		height: 300px;
+}

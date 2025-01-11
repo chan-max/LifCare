@@ -1,0 +1,79 @@
+{
+  "hash": "000e1e0d",
+  "configHash": "529f84d1",
+  "lockfileHash": "f976cf17",
+  "browserHash": "8e480b72",
+  "optimized": {
+    "await-to-js": {
+      "src": "../../../../../node_modules/await-to-js/dist/await-to-js.es5.js",
+      "file": "await-to-js.js",
+      "fileHash": "3b26a1ae",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../../../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "26c2c103",
+      "needsInterop": false
+    },
+    "uuid": {
+      "src": "../../../../../node_modules/uuid/dist/esm-browser/index.js",
+      "file": "uuid.js",
+      "fileHash": "69026a0f",
+      "needsInterop": false
+    },
+    "vconsole": {
+      "src": "../../../../../node_modules/vconsole/dist/vconsole.min.js",
+      "file": "vconsole.js",
+      "fileHash": "a7bdf137",
+      "needsInterop": true
+    },
+    "cos-js-sdk-v5": {
+      "src": "../../../../../node_modules/cos-js-sdk-v5/dist/cos-js-sdk-v5.js",
+      "file": "cos-js-sdk-v5.js",
+      "fileHash": "346d287e",
+      "needsInterop": true
+    },
+    "echarts": {
+      "src": "../../../../../node_modules/echarts/index.js",
+      "file": "echarts.js",
+      "fileHash": "2d55455a",
+      "needsInterop": false
+    },
+    "echarts-liquidfill": {
+      "src": "../../../../../node_modules/echarts-liquidfill/index.js",
+      "file": "echarts-liquidfill.js",
+      "fileHash": "f125b9f2",
+      "needsInterop": false
+    },
+    "uniapp-axios-adapter": {
+      "src": "../../../../../node_modules/uniapp-axios-adapter/lib/index.esm.js",
+      "file": "uniapp-axios-adapter.js",
+      "fileHash": "5a6e209f",
+      "needsInterop": false
+    },
+    "lunar-javascript": {
+      "src": "../../../../../node_modules/lunar-javascript/index.js",
+      "file": "lunar-javascript.js",
+      "fileHash": "243706fa",
+      "needsInterop": true
+    },
+    "circlepacker": {
+      "src": "../../../../../node_modules/circlepacker/dist/circlepacker.node.mjs",
+      "file": "circlepacker.js",
+      "fileHash": "dde422a1",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-LQ57P2FT": {
+      "file": "chunk-LQ57P2FT.js"
+    },
+    "chunk-W75RRTKB": {
+      "file": "chunk-W75RRTKB.js"
+    },
+    "chunk-P2LSHJDD": {
+      "file": "chunk-P2LSHJDD.js"
+    }
+  }
+}

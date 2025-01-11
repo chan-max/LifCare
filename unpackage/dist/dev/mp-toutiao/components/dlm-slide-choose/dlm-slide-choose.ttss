@@ -1,0 +1,26 @@
+
+.slide-scroll {
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+}
+.slide-list {
+		flex-shrink: 0;
+		position: relative;
+		border-radius: 4px;
+		transition: background-color .1s;
+}
+.list-num {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+}
+.slide-item {
+		flex-shrink: 0;
+		border-radius: 4px;
+		transition: background-color .1s;
+}
+.empty-none {
+		flex-shrink: 0;
+		height: 5px;
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "吸烟记录",
+  "usingComponents": {
+    "uni-icons": "../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "ua-timeline-item": "../../../components/ua-timeline-item/ua-timeline-item",
+    "ua-timeline": "../../../components/ua-timeline/ua-timeline"
+  }
+}

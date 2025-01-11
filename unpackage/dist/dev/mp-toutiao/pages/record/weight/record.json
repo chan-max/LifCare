@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "记录体重",
+  "usingComponents": {
+    "l-echart": "../../../uni_modules/lime-echart/components/l-echart/l-echart",
+    "dlm-slide-choose": "../../../components/dlm-slide-choose/dlm-slide-choose",
+    "uni-icons": "../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "ua-timeline-item": "../../../components/ua-timeline-item/ua-timeline-item",
+    "ua-timeline": "../../../components/ua-timeline/ua-timeline"
+  }
+}

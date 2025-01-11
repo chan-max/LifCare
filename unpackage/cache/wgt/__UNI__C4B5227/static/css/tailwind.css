@@ -1,0 +1,363 @@
+/* Flexbox */
+.flex {
+	display: flex;
+}
+
+.inline-flex {
+	display: inline-flex;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-wrap{
+	flex-wrap: wrap;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.items-center {
+	align-items: center;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-around {
+	justify-content: space-around;
+}
+
+/* Grid */
+.grid {
+	display: grid;
+}
+
+.grid-cols-1 {
+	grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gap-4 {
+	gap: 1rem;
+	/* Gap between grid items */
+}
+
+/* Spacing */
+.p-4 {
+	padding: 1rem;
+	/* Padding of 1rem on all sides */
+}
+
+.m-4 {
+	margin: 1rem;
+	/* Margin of 1rem on all sides */
+}
+
+.pt-4 {
+	padding-top: 1rem;
+}
+
+.pb-4 {
+	padding-bottom: 1rem;
+}
+
+.pl-4 {
+	padding-left: 1rem;
+}
+
+.pr-4 {
+	padding-right: 1rem;
+}
+
+.w-full {
+	width: 100%;
+}
+
+
+.h-12 {
+	height: 3rem;
+	/* Height of 3rem */
+}
+
+/* Margin and Padding */
+.mt-4 {
+	margin-top: 1rem;
+}
+
+.mb-4 {
+	margin-bottom: 1rem;
+}
+
+.ml-4 {
+	margin-left: 1rem;
+}
+
+.mr-4 {
+	margin-right: 1rem;
+}
+
+/* Positioning */
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.fixed {
+	position: fixed;
+}
+
+/* Display */
+.block {
+	display: block;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.hidden {
+	display: none;
+}
+
+/* Font Size */
+.text-xs {
+	font-size: 0.75rem;
+	/* Extra small text */
+}
+
+.text-sm {
+	font-size: 0.875rem;
+	/* Small text */
+}
+
+.text-base {
+	font-size: 1rem;
+	/* Default text size */
+}
+
+.text-lg {
+	font-size: 1.125rem;
+	/* Large text */
+}
+
+.text-xl {
+	font-size: 1.25rem;
+	/* Extra large text */
+}
+
+.text-2xl {
+	font-size: 1.5rem;
+	/* 2x large text */
+}
+
+.text-3xl {
+	font-size: 1.875rem;
+	/* 3x large text */
+}
+
+/* Font Weight */
+.font-light {
+	font-weight: 300;
+	/* Light font weight */
+}
+
+.font-normal {
+	font-weight: 400;
+	/* Normal font weight */
+}
+
+.font-semibold {
+	font-weight: 600;
+	/* Semi-bold font weight */
+}
+
+.font-bold {
+	font-weight: 700;
+	/* Bold font weight */
+}
+
+/* Text Color */
+.text-white {
+	color: white;
+}
+
+.text-black {
+	color: black;
+}
+
+.text-gray-500 {
+	color: #6b7280;
+	/* Gray text */
+}
+
+.text-red-500 {
+	color: #f87171;
+	/* Red text */
+}
+
+.text-green-500 {
+	color: #10b981;
+	/* Green text */
+}
+
+/* Text Alignment */
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+/* Text Decoration */
+.underline {
+	text-decoration: underline;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+.no-underline {
+	text-decoration: none;
+}
+
+/* Line Height */
+.leading-none {
+	line-height: 1;
+}
+
+.leading-tight {
+	line-height: 1.25;
+}
+
+.leading-loose {
+	line-height: 1.75;
+}
+
+/* Background Color */
+.bg-white {
+	background-color: white;
+}
+
+.bg-black {
+	background-color: black;
+}
+
+.bg-gray-100 {
+	background-color: #f3f4f6;
+}
+
+.bg-blue-500 {
+	background-color: #3b82f6;
+	/* Blue background */
+}
+
+/* Border */
+.border {
+	border-width: 1px;
+}
+
+.border-2 {
+	border-width: 2px;
+}
+
+.border-4 {
+	border-width: 4px;
+}
+
+.border-t {
+	border-top-width: 1px;
+}
+
+.border-b {
+	border-bottom-width: 1px;
+}
+
+.border-l {
+	border-left-width: 1px;
+}
+
+.border-r {
+	border-right-width: 1px;
+}
+
+.border-gray-500 {
+	border-color: #6b7280;
+}
+
+/* Border Radius */
+.rounded {
+	border-radius: 0.25rem;
+	/* Small border radius */
+}
+
+.rounded-sm {
+	border-radius: 0.125rem;
+	/* Smaller border radius */
+}
+
+.rounded-lg {
+	border-radius: 0.5rem;
+	/* Larger border radius */
+}
+
+.rounded-full {
+	border-radius: 9999px;
+	/* Fully rounded (circle) */
+}
+
+/* Box Shadow */
+.shadow {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-lg {
+	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Opacity */
+.opacity-0 {
+	opacity: 0;
+}
+
+.opacity-50 {
+	opacity: 0.5;
+}
+
+.opacity-100 {
+	opacity: 1;
+}
+
+
+
+/* Cursor */
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.cursor-not-allowed {
+	cursor: not-allowed;
+}

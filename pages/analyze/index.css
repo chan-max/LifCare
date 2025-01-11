@@ -1,0 +1,26 @@
+	.record-low {
+		background-color: #FFCDDC;
+
+		.uni-calendar-item--extra,
+		.uni-calendar-item__weeks-box-text {
+			color: #ffffff;
+		}
+	}
+
+	.record-middle {
+		background-color: #FF9CB9;
+
+		.uni-calendar-item--extra,
+		.uni-calendar-item__weeks-box-text {
+			color: #ffffff;
+		}
+	}
+
+	.record-high {
+		background-color: #FF83A8;
+
+		.uni-calendar-item--extra,
+		.uni-calendar-item__weeks-box-text {
+			color: #ffffff;
+		}
+	}

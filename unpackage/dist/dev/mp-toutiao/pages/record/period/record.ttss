@@ -1,0 +1,20 @@
+
+.container.data-v-2382266c {
+		padding: 16px;
+		display: flex;
+		flex-direction: column;
+		row-gap: 16px;
+		align-items: center;
+}
+.period-calendar.data-v-2382266c {
+		font-weight: bold;
+		border-radius: 16px;
+		width: 100%;
+		overflow: hidden;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.period-predict-highlight {
+		background-color: rgba(234, 76, 137, .3) !important;
+}

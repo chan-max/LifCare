@@ -1,0 +1,1 @@
+<view>{{a}} <button bindtap="{{b}}"> 退出登录 </button><button bindtap="{{c}}"> 更新我的信息 </button></view>

@@ -1,0 +1,16 @@
+
+.container.data-v-e13cb77f {
+		padding: 16px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #f8f8f8;
+		row-gap: 16px;
+}
+.picker-view.data-v-e13cb77f {
+		width: 100%;
+		height: 200px;
+		background-color: #fff;
+		border-radius: 10px;
+		margin-top: 20px;
+}

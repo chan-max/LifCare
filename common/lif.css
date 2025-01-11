@@ -1,0 +1,46 @@
+.lif-a {
+	color: #ea4c89;
+	font-weight: bold;
+	font-size: 24rpx;
+}
+
+.lif-a:active {
+	color: #e86d9c;
+}
+
+.lif-button {
+	background-color: #EA4C89;
+	border-style: none;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24rpx;
+	font-weight: 900;
+	list-style: none;
+	margin: 0;
+	outline: none;
+	padding: 10rpx;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transition: color 100ms;
+	vertical-align: baseline;
+	user-select: none;
+	touch-action: manipulation;
+	width: 100%;
+	border-radius: 999px;
+}
+
+.lif-button:hover,
+.lif-button:focus,
+.lif-button:active {
+	background-color: #F082AC;
+	color: #fff;
+}
+
+.button-hover {
+	background-color: #F082AC !important;
+	color: #fff !important;
+}

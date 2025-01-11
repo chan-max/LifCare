@@ -1,0 +1,61 @@
+
+.container.data-v-ef6850c5 {
+		padding: 16px;
+		min-height: 100vh;
+		background-color: #f3f2f9;
+}
+.title.data-v-ef6850c5 {
+		font-weight: bold;
+		color: #000;
+		font-size: 20px;
+		padding-bottom: 6px;
+		padding-left: 6px;
+}
+.list.data-v-ef6850c5 {
+		padding: 12px 0;
+		background-color: #fff;
+		border-radius: 12px;
+		overflow: hidden;
+}
+.list-item.data-v-ef6850c5 {
+		display: flex;
+		align-items: center;
+		padding: 0 20px;
+		transition: background-color 0.2s ease;
+}
+.list-item:last-child .item-content.data-v-ef6850c5 {
+		border-bottom: none;
+}
+.item-content.data-v-ef6850c5 {
+		flex: 1;
+		width: 100%;
+		display: flex;
+		column-gap: 16px;
+		justify-content: space-between;
+		align-items: center;
+		border-bottom: 1px solid #eaeaea;
+}
+.thumbnail.data-v-ef6850c5 {
+		width: 24px;
+		height: 24px;
+		margin-right: 0px;
+		border-radius: 4px;
+		object-fit: cover;
+}
+.text.data-v-ef6850c5 {
+		flex: 1;
+		font-size: 16px;
+		color: #111;
+		font-weight: 900;
+		padding: 12px 12px;
+		height: 36px;
+		line-height: 36px;
+}
+.list-item.active.data-v-ef6850c5 {
+		background-color: #f0f0f0;
+		/* 手指按下时的背景高亮 */
+}
+.list-item.data-v-ef6850c5:active {
+		background-color: #e6e6e6;
+		/* PC 端点击的视觉反馈 */
+}

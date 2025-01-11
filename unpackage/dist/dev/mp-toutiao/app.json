@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/record/record",
+    "pages/record/sleep/sleep",
+    "pages/record/sleep/record",
+    "pages/record/sleep/analyze",
+    "pages/record/height/record",
+    "pages/record/walk/record",
+    "pages/record/luck/record",
+    "pages/record/weight/record",
+    "pages/record/mood/record",
+    "pages/record/smoke/record",
+    "pages/record/period/record",
+    "pages/workspace/workspace",
+    "pages/analyze/analyze",
+    "pages/me/me",
+    "pages/login/login",
+    "pages/login/signup",
+    "pages/me/update"
+  ],
+  "window": {
+    "pageOrientation": "portrait",
+    "navigationBarTitleText": "LifCare",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#ea4c89",
+    "backgroundColor": "#F8F8F8",
+    "backgroundColorTop": "#F4F5F6",
+    "backgroundColorBottom": "#F4F5F6"
+  },
+  "tabBar": {
+    "color": "#a8a8a8",
+    "selectedColor": "#ea4c89",
+    "borderStyle": "#666",
+    "backgroundColor": "#F8F8F8",
+    "blurEfect": "light",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/img/tabbar/home.png",
+        "selectedIconPath": "static/img/tabbar/home-filled.png",
+        "text": "统计"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "iconPath": "static/img/tabbar/record.png",
+        "selectedIconPath": "static/img/tabbar/record-filled.png",
+        "text": "记录"
+      },
+      {
+        "pagePath": "pages/workspace/workspace",
+        "iconPath": "static/img/tabbar/workspace.png",
+        "selectedIconPath": "static/img/tabbar/workspace-filled.png",
+        "text": "工作台"
+      },
+      {
+        "pagePath": "pages/analyze/analyze",
+        "iconPath": "static/img/tabbar/analyze.png",
+        "selectedIconPath": "static/img/tabbar/analyze-filled.png",
+        "text": "分析"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/img/tabbar/me.png",
+        "selectedIconPath": "static/img/tabbar/me-filled.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,61 @@
+.container.data-v-07e72d3c {
+  background: linear-gradient(180deg, rgba(255, 200, 224, 0.3) 0%, #ebebeb 47%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  padding: 16px;
+}
+.title.data-v-07e72d3c {
+  font-size: 24px;
+  font-weight: 900;
+}
+.box1.data-v-07e72d3c {
+  height: 64px;
+  width: 100%;
+  background: linear-gradient(315deg, #FA8787 0%, #FF64BD 100%);
+  border-radius: 12px;
+}
+.avatar.data-v-07e72d3c {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: 2px solid #FA8787;
+}
+.header.data-v-07e72d3c {
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 8px;
+}
+.card-category-1.data-v-07e72d3c {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 24px;
+}
+.basic-card.data-v-07e72d3c {
+  width: 46%;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.basic-card-aqua.data-v-07e72d3c {
+  background-image: linear-gradient(to bottom right, #00bfad, #99a3d4);
+}
+.basic-card-aqua .card-link.data-v-07e72d3c {
+  border-top: 1px solid #82c1bb;
+}
+.basic-card-aqua .card-link a.data-v-07e72d3c:after {
+  background: #fff;
+}
+.basic-card-lips.data-v-07e72d3c {
+  background-image: linear-gradient(to bottom right, #ec407b, #ff7d94);
+}
+.basic-card-dark.data-v-07e72d3c {
+  background-image: linear-gradient(to bottom right, #252525, #4a4a4a);
+}
