@@ -1,5 +1,5 @@
 <template>
-	文章
+	<view>文章</view>
 </template>
 
 <script>

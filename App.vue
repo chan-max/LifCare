@@ -1,4 +1,4 @@
-<script setup>
+<script>
 	import {
 		useLoginStatusStore
 	} from './store/login';
@@ -13,33 +13,31 @@
 		useAnalyzeStore
 	} from '@/store/analyze'
 
+	export default {
+		async onLaunch() {
 
-	import {
-		onLaunch
-	} from "@dcloudio/uni-app";
-	onLaunch(async () => {
+			const analyzeStore = useAnalyzeStore()
 
-		const analyzeStore = useAnalyzeStore()
+			await initLoginStoreUserInfo();
+			await initConfigStoreBasicConfig();
 
-		await initLoginStoreUserInfo();
-		await initConfigStoreBasicConfig();
-		
-		const loginStore = useLoginStatusStore();
+			const loginStore = useLoginStatusStore();
 
-		if (loginStore.isLogin) {
-			// uni.reLaunch({
-			// 	url: "/pages/home/home",
-			// })
-			analyzeStore.initAnalyze()
-			analyzeStore.initDayrecord()
-			// 获取用户分析数据信息
-		} else {
-			//不存在则跳转至登录页
-			uni.reLaunch({
-				url: "/pages/login/login",
-			})
+			if (loginStore.isLogin) {
+				uni.reLaunch({
+					url: "/pages/home/home",
+				})
+				analyzeStore.initAnalyze()
+				analyzeStore.initDayrecord()
+				// 获取用户分析数据信息
+			} else {
+				//不存在则跳转至登录页
+				uni.reLaunch({
+					url: "/pages/login/login",
+				})
+			}
 		}
-	})
+	}
 </script>
 
 <style lang='scss'>

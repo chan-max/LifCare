@@ -3,8 +3,8 @@ import { v4 as uuidv4 } from 'uuid';
 import { UniAdapter } from "uniapp-axios-adapter";
 // 创建 Axios 实例
 export const axiosInstance = axios.create({
-	baseURL: "https://1s.design:4321", // 基础地址
-	// baseURL: "https://localhost:4321", // 基础地址   
+	// baseURL: "https://1s.design:4321", // 基础地址
+	baseURL: "https://localhost:4321", // 基础地址   /
 	// baseURL: "https://192.168.0.101:4321",
 	// baseURL: "https://172.20.10.10:4321",
 	timeout: 50000, // 请求超时时间
@@ -203,7 +203,7 @@ export const getMonthly = (year, month) => new Promise(async (resolve, reject) =
 })
 
 
-export const getHello = (year, month) => new Promise(async (resolve, reject) => {
+export const getHello = () => new Promise(async (resolve, reject) => {
 	let res = await api.get(`/api/hello`)
 	resolve(res.data.data)
 })

@@ -22,7 +22,7 @@ import {
 	createSSRApp
 } from 'vue'
 
-import VConsole from 'vconsole';
+// import VConsole from 'vconsole';
 
 
 export function createApp() {

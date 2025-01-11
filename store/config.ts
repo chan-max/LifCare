@@ -10,7 +10,6 @@ export async function initConfigStoreBasicConfig() {
 	configStore.$patch(config as any)
 }
 
-
 export const useConfigStore = defineStore("global_config", () => {
 
 	const ok = ref(false)
